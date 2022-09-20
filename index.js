@@ -12,7 +12,7 @@ const users = [
 app.use(express.json())
 
 app.get("/", (req, res) => {
-    res.sned("Request GET en /");
+    res.send("Request GET en /");
 });
 
 app.get("/users", (req, res) => {
